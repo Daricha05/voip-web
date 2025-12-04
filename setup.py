@@ -18,8 +18,8 @@ with open('requirements.txt') as f:
 setup(
     name="voip-web",
     version="1.0.0",
-    author="Votre Nom",
-    author_email="votre.email@example.com",
+    author="ANDRIAMANALINA Johnny Richard",
+    author_email="johnnyricharde5@gmail.com",
     description="Serveur VoIP web avec Flask-SocketIO et WebRTC",
     long_description=long_description,
     long_description_content_type="text/markdown",
