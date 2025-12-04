@@ -1,0 +1,26 @@
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+
+# Include configuration files
+include config.yml
+include requirements.txt
+
+# Include templates and static files
+recursive-include voip_web/templates *.html
+recursive-include voip_web/static *.css *.js *.png *.jpg *.ico
+
+# Include tests
+recursive-include tests *.py
+
+# Exclude compiled Python files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude .DS_Store
+
+# Exclude build artifacts
+prune build
+prune dist
+prune *.egg-info
