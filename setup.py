@@ -11,7 +11,7 @@ setup(
     description="Serveur VoIP web avec Flask-SocketIO et WebRTC",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ton-username/voip-web",
+    url="https://github.com/Daricha05/voip-web.git",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
