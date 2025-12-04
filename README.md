@@ -271,39 +271,6 @@ voip-web info
 - `call_ended` - Appel terminé
 - `webrtc_signal` - Signaux WebRTC
 
-## 🏗️ Architecture
-
-```
-voip-web/
-├── voip_web/
-│   ├── __init__.py          # Package principal
-│   ├── server.py            # Serveur Flask/SocketIO
-│   ├── config.py            # Gestion configuration
-│   ├── storage.py           # Backends de stockage
-│   ├── blueprints.py        # Blueprints Flask
-│   ├── utils.py             # Utilitaires
-│   ├── cli.py               # Interface CLI
-│   └── templates/           # Templates HTML
-│       ├── index.html
-│       └── chat.html
-├── tests/
-│   └── test_voip.py         # Tests unitaires
-├── config.yml               # Configuration par défaut
-├── setup.py                 # Configuration du package
-├── requirements.txt         # Dépendances
-└── README.md               # Documentation
-```
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues !
-
-1. Fork le projet
-2. Créer une branche (`git checkout -b feature/AmazingFeature`)
-3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
-
 ## 📝 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
